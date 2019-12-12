@@ -130,14 +130,24 @@ table {
 * {
   box-sizing: border-box;
 }
+html,
+body {
+  background-color: blueviolet;
+}
 .container {
-  height: 90%;
-  width: 90%;
-  /*border: 2px solid green;*/
-  padding: 5% 10%;
+  margin: 0 auto;
+  max-width: 1020px;
+  background-color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  max-width: 50%;
+  align-items: center;
+  background-color: #979775;
   margin: 0 auto;
 }
-/*.container .top-content {
+.top-content {
   margin: 10px;
 }
 .middle-content {
@@ -162,14 +172,14 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-a {
+nav a {
   text-decoration: none;
   color: #ff4444;
   font-size: 20px;
   margin-bottom: 10px;
 }
-h2 {
+nav h2 {
   font-size: 20px;
   color: #ff4444;
   text-align: center;
-}*/
+}
