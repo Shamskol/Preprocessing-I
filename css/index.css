@@ -119,7 +119,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -131,6 +131,46 @@ table {
   box-sizing: border-box;
 }
 html,
-body {
-  height: 100%;
+body .container {
+  height: 90%;
+  width: 90%;
+  /*border: 2px solid green;*/
+  padding: 5% 10%;
+  margin: 0 auto;
+}
+.top-content {
+  margin: 10px;
+}
+.middle-content {
+  margin: 10px;
+}
+li {
+  list-style-type: disc;
+  font-size: 20px;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 100px;
+  color: red;
+}
+p {
+  line-height: 1.5em;
+  font-size: 20px;
+}
+nav {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 20px;
+  color: coral;
+  text-align: center;
 }
